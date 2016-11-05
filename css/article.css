@@ -49,10 +49,10 @@
     text-align: center;
 }
 
-.article-left {}
+.article-left {
+    text-align: left;
+}
 
-.article-right {}
-
-.padding-50{
-    
+.article-right {
+    text-align: right;
 }

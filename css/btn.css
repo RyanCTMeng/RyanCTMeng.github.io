@@ -2,14 +2,16 @@ a.btn {
     border-radius: 2px;
 }
 
-a.btn-1 {}
-
-
+a.btn-1{
+    background-color: rgba(0%, 0%, 0%, 0);
+    border-color: white;
+}
 /*變化2-透明 → white*/
 
 a.btn-2 {
     background-color: rgba(0%, 0%, 0%, 0);
     border-color: white;
+    width: 200px;
 }
 
 a.btn-2:hover {
@@ -27,13 +29,10 @@ a.btn-3 {
 .btn-9 {
     position: absolute;
     bottom: 46px;
-    left: 50%;
-    width: 46px;
+    left: 48%;
 }
 
 .download-btn {
-    float: left;
-    margin-left: 10px;
     border-radius: 2px;
 }
 
@@ -51,6 +50,6 @@ i {
 }
 
 .downlad-btn-set {
+    text-align: center;
     overflow: auto;
-    padding-left: 36%;
 }

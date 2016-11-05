@@ -1,6 +1,7 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -31,8 +32,7 @@ title-5 {
 }
 
 nav>.container {
-    width: 50%;
-    padding: 0px 16px;
+    position: relative;
 }
 
 .nav-item {
@@ -40,7 +40,7 @@ nav>.container {
 }
 
 .logo {
-    float: left;
+    text-align: center;
 }
 
 .logo>a img {
@@ -48,7 +48,7 @@ nav>.container {
 }
 
 .item {
-    float: right;
+    text-align: center;
     padding: 3px;
 }
 
@@ -86,16 +86,6 @@ nav>.container {
 .container-fluid {
     position: relative;
     width: 60%
-}
-
-.jumbotron-btn {
-    overflow: auto;
-    padding-left: 160px;
-}
-
-.jumbotron-btn p {
-    float: left;
-    margin: 10px;
 }
 
 .jumbotron a {
@@ -169,6 +159,7 @@ a:active {}
 .col-md-3 {
     text-align: center;
 }
-.container-fluid .row{
+
+.container-fluid .row {
     margin: 5px;
 }
