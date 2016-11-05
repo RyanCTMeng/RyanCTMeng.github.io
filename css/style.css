@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -87,7 +90,7 @@ nav>.container {
 
 .jumbotron-btn {
     overflow: auto;
-    padding-left: 63px;
+    padding-left: 160px;
 }
 
 .jumbotron-btn p {
@@ -159,34 +162,13 @@ a:active {}
     text-align: center;
 }
 
-.comment {
-    background: #f4f4f4;
-    color: #565656;
-    font-family: "Lora";
-    font-size: 1.125rem;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 1.9rem;
-    padding: 1.875rem;
-    position: relative;
-}
-
-.business-card {
-    background: #f4f4f4;
-    color: #565656;
-    font-family: "Lora";
-    font-size: 1.125rem;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.9rem;
-    padding: 1.875rem;
-    position: relative;
-}
-
 .thumbnail {
     border: none;
 }
 
 .col-md-3 {
     text-align: center;
+}
+.container-fluid .row{
+    margin: 5px;
 }
