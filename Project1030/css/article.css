@@ -10,6 +10,7 @@
 
 .section-title-right {
     text-align: right;
+    background-color: rgb(230, 224, 220);
 }
 
 .title-1 {
@@ -21,7 +22,15 @@
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1.5625rem;
-   
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.title-5 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5625rem;
+    color: white;
 }
 
 .title-3 {

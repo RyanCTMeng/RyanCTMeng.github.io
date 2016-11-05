@@ -24,24 +24,34 @@ a.btn-3 {
     color: #fff;
 }
 
-.btn-4 {}
-
-.btn-5 {}
-
-.btn-6 {}
-
-.btn-7 {}
-
-.btn-8 {}
-
 .btn-9 {
     position: absolute;
-    bottom:46px;
+    bottom: 46px;
     left: 50%;
     width: 46px;
-    background-color: rg  
 }
 
-i{
+.download-btn {
+    float: left;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+.logo-btn {
+    text-align: center;
+}
+
+.logo-btn>a img {
+    margin: 1px;
+    border-radius: 50%;
+}
+
+i {
     padding: 10px;
+}
+
+.u {
+    overflow: auto;
+    width: 40%;
+    padding: 40%
 }
