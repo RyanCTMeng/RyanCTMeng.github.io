@@ -1,0 +1,128 @@
+[class^="col-"] {}
+
+
+/*navbar css begin*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+    background: rgba(0%, 0%, 0%, 0);
+    border: rgba(0%, 0%, 0%, 0);
+}
+
+nav>.container {
+    width: 50%;
+    padding: 0px 16px;
+}
+
+.nav-item {
+    margin: 7px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo>a img {
+    width: 42.75px;
+}
+
+.item {
+    float: right;
+    padding: 3px;
+}
+
+.item>ul {
+    list-style-type: none;
+    overflow: auto;
+}
+
+.item>ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*navbar css end*/
+
+.jumbotron {
+    background-image: url("https://mobirise.com/assets3/images/jumbotron-2000x1252-54.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.jumbotron-btn {
+    overflow: auto;
+    padding-left: 63px;
+}
+
+.jumbotron-btn p {
+    float: left;
+    margin: 10px;
+}
+
+.jumbotron a {
+    background-color: #c0a375;
+    border-color: #c0a375;
+}
+
+section {
+    padding: 0px;
+    margin: 0px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+footer {
+    background-color: #33333c;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer container {
+    padding: 90x;
+}
+
+footer {
+    color: white;
+}
+
+.footer-ul ul {
+    list-style-type: square;
+}
+
+a {
+    color: white;
+    display: inline-block;
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {}

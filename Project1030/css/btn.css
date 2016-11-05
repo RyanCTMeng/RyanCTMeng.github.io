@@ -1,0 +1,47 @@
+a.btn {
+    border-radius: 2px;
+}
+
+a.btn-1 {}
+
+
+/*變化2-透明 → white*/
+
+a.btn-2 {
+    background-color: rgba(0%, 0%, 0%, 0);
+    border-color: white;
+}
+
+a.btn-2:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+a.btn-3 {
+    background-color: #597478;
+    border-color: #597478;
+    color: #fff;
+}
+
+.btn-4 {}
+
+.btn-5 {}
+
+.btn-6 {}
+
+.btn-7 {}
+
+.btn-8 {}
+
+.btn-9 {
+    position: absolute;
+    bottom:46px;
+    left: 50%;
+    width: 46px;
+    background-color: rg  
+}
+
+i{
+    padding: 10px;
+}

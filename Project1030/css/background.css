@@ -1,0 +1,19 @@
+.background-1 {
+    background-color: rgb(193, 193, 193);
+}
+
+.background-2 {
+    background-color: rgb(239, 239, 239);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+/*name card*/
+.author-card img{
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+}
