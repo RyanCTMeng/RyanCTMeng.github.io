@@ -1,0 +1,61 @@
+button {
+    background-color: rgba(0%, 0%, 0%, 0)!important;
+    border: none!important;
+}
+
+a.btn {
+    border-radius: 2px;
+}
+
+a.btn-1 {
+    background-color: rgba(0%, 0%, 0%, 0);
+    border-color: white;
+}
+
+
+/*變化2-透明 → white*/
+
+a.btn-2 {
+    background-color: rgba(0%, 0%, 0%, 0);
+    border-color: white;
+    width: 200px;
+}
+
+a.btn-2:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+a.btn-3 {
+    background-color: #597478;
+    border-color: #597478;
+    color: #fff;
+}
+
+.btn-9 {
+    position: absolute;
+    bottom: 46px;
+    left: 48%;
+}
+
+.download-btn {
+    border-radius: 2px;
+}
+
+.logo-btn {
+    text-align: center;
+}
+
+.logo-btn>a img {
+    margin: 1px;
+    border-radius: 50%;
+}
+
+i {
+    padding: 10px;
+}
+
+.downlad-btn-set {
+    text-align: center;
+}

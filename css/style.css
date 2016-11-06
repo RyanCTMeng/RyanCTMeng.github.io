@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+title-1,
+title-2,
+title-3,
+title-4,
+title-5 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+
+/*navbar css begin*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+    background: rgba(0%, 0%, 0%, 0);
+    border: rgba(0%, 0%, 0%, 0);
+}
+
+nav>.container {
+    position: relative;
+}
+
+.nav-item {
+    margin: 7px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo>a img {
+    width: 42.75px;
+}
+
+.item {
+    text-align: center;
+    padding: 3px;
+}
+
+.item>ul {
+    list-style-type: none;
+    overflow: auto;
+}
+
+.item>ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*navbar css end*/
+
+.jumbotron {
+    background-image: url("https://mobirise.com/assets3/images/jumbotron-2000x1252-54.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    position: relative;
+    width: 60%
+}
+
+.jumbotron a {
+    background-color: #c0a375;
+    border-color: #c0a375;
+}
+
+section {
+    padding: 0px;
+    margin: 0px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+footer {
+    background-color: #33333c;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer container {
+    padding: 90x;
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-ul ul {
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+a {
+    color: white;
+    display: inline-block;
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {}
+
+.name {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1.2825;
+    text-align: center;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.col-md-3,
+.col-md-12 {
+    text-align: center;
+}
+
+.container-fluid .row {
+    margin: 5px;
+}
