@@ -2,7 +2,10 @@ button {
     background-color: rgba(0%, 0%, 0%, 0)!important;
     border: none!important;
 }
-
+.btn{
+    background-color: rgba(0%, 0%, 0%, 0)!important;
+    border: none!important;
+}
 a.btn {
     border-radius: 2px;
 }
