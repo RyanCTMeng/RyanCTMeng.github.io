@@ -42,6 +42,7 @@ a.btn-3 {
 }
 
 .btn-9 {
+    background-color: rgba(0%, 0%, 0%, 0)!important;
     position: absolute;
     bottom: 46px;
     left: 48%;
@@ -61,7 +62,8 @@ a.btn-3 {
 }
 
 i {
-    padding: 10px;
+    padding: 0;
+    background-color: rgba(0%, 0%, 0%, 0)!important;
 }
 
 .downlad-btn-set {
