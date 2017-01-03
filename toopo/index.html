@@ -1,0 +1,43 @@
+<!-- : = v-bind -->
+<!-- @ = v-on -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Too Po</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="./pokemon.css">
+  <link rel="stylesheet" type="text/css" href="./vendor/animate.css">
+</head>
+
+<body>
+  <div id="content">
+    <div class="btn-bg Pokemon">
+      <div class="btn-info">TOOPO!</div>
+      <div class="btn-mention"><span>Select the next Too Po!</span></div>
+      <div class="image">
+        <template v-for='user in users'>
+          <img :src="user.pic" class='img animated' :data-key="user.name">
+        </template>
+      </div>
+      <div class="btn-group">
+        <div class="btn ball">
+          <button @click="startRandom">
+            <div class="pokemon-ball"></div><a>Pokémon<span data-letters="Go!"></span><span data-letters="Go!"></span></a>
+          </button>
+          <button @click="stopRandom">
+            <div class="pokemon-ball"></div><a>Pokémon<span data-letters="Stop!"></span><span data-letters="Stop!"></span></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <audio data-key="pokemon-go" src="sounds/pokemon.mp3"></audio>
+  <audio data-key="happy" src="sounds/happy.mp3"></audio>
+  <audio data-key="john_cena" src="sounds/john_cena.mp3"></audio>
+  <script src="vendor/vue.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

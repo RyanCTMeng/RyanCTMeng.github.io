@@ -1,0 +1,44 @@
+html {
+    height: 100vh;
+    background: #ffd740;
+    /*background: -webkit-linear-gradient(left top, red, yellow);
+    background: -o-linear-gradient(bottom right, red, yellow);
+    background: -moz-linear-gradient(bottom right, red, yellow);
+    background: linear-gradient(to bottom right, red, yellow);
+    background-image: url(images/green.jpg);*/
+    background: -webkit-linear-gradient(red 35%, black 50%, white 65%);
+    background: -o-linear-gradient(red 35%, black 50%, white 65%);
+    background: -moz-linear-gradient(red 35%, black 50%, white 65%);
+    background: linear-gradient(red 35%, black 50%, white 65%);
+}
+
+
+}
+body,
+html {
+    font-family: monospace;
+}
+#content {
+    /*background: -webkit-linear-gradient(red 35%, black 50%, white 65%);
+    background: -o-linear-gradient(red 35%, black 50%, white 65%);
+    background: -moz-linear-gradient(red 35%, black 50%, white 65%);
+    background: linear-gradient(red 35%, black 50%, white 65%);
+    border: 5px solid black;
+    border-radius: 50%;*/
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    width: 300px;
+    height: 400px;
+    min-height: 60vh;
+    margin: auto;
+    border-radius: 5px;
+}
+img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}

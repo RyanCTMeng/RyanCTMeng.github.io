@@ -1,0 +1,16 @@
+.navbar {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(/RyanCTMeng.github.io/images/3.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0);
+}

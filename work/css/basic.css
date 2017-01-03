@@ -1,0 +1,38 @@
+/*所有標籤BOX MODEL 使用 BORDER BOX*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/*排版用的標籤 RESET margin與padding*/
+
+div,
+header,
+footer,
+article,
+section,
+aside,
+nav,
+blockquote,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
