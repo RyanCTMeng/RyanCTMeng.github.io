@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta name="keywords" content="GSP 類電視 In-Page 影音廣告" />
+<meta name="description" content="GSP 類電視 In-Page 影音廣告" /> -->
+<title>GSP 類電視 In-Page 影音廣告</title>
+
+
+
+<!-- OneAD InRead 與 InPage 開始 -->
+<script type="text/javascript">
+	var ONEAD = {};
+		ONEAD.channel =  21; // just reversed.
+		ONEAD.volume =  0.5; // range is 0 to 1 (float)
+		ONEAD.slot_limit = {width: 950, height: 420};
+		// optional(s)
+		ONEAD.slot_limit_multiple = {
+			inread: {
+				width: 530,
+				height: 420
+			}
+		};
+		ONEAD.response_freq = {start:1, step: 3};
+		ONEAD.category = "-1";
+		//ONEAD.dedicated_pid = 30545
+		ONEAD.response_freq_multiple = {
+            instream: "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99"
+		};
+	ONEAD.cmd = ONEAD.cmd || [];
+</script>
+<script type="text/javascript">
+	// For OneAD, DON'T MODIFY the following
+	if (typeof(ONEAD) !== "undefined"){
+		ONEAD.uid = "1000020";
+		ONEAD.external_url = "http://rd.guoshi.com.tw/"; // base_url, post-slash is necessary
+		ONEAD.wrapper = 'ONEAD_player_wrapper';
+		ONEAD.wrapper_multiple = {
+			instream: "ONEAD_player_wrapper", // equals to inpage
+			inread: "ONEAD_inread_wrapper",
+			incover: "ONEAD_incover_wrapper"
+		};
+	}
+	if (typeof window.isip_js == "undefined") {
+		(function() {
+		var src = '//ad-specs.guoshipartners.com/static/js/isip.js';
+		var js = document.createElement('script');
+		js.async = true;
+		js.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		js.src = src;
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(js, node.nextSibling); // insert after
+		})();
+	}
+</script>
+<script type="text/javascript">
+	ONEAD_on_get_response = function(param){
+	// if there is no pid, param is {}, it's not null
+	if (param === null || param.pid === undefined){
+		// 沒廣告
+	}else{
+		var t = setInterval(function(){
+			if (ONEAD_is_above(100)){	}
+         		}, 1000);
+         	}
+         }
+		// 這個函式名稱是固定的，廣告播放完畢會呼叫之
+		function changeADState(obj){
+			if (obj.newstate == 'COMPLETED' || obj.newstate == 'DELETED' ){
+				if (ONEAD.play_mode == 'incover'){
+					// remove the dimming block
+					ONEAD_cleanup(ONEAD.play_mode);
+				}else{
+					ONEAD_cleanup();
+				}
+			}
+		}
+</script>
+<!-- OneAD InRead 與 InPage 結束 -->
+
+</HEAD>
+
+<BODY style="margin:0px;">
+
+								<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+									  <!-- incover -->
+								<!-- incover -->
+								<div id="div-incover-ad">
+								<script type="text/javascript">
+									if (typeof(ONEAD) !== "undefined"){
+										ONEAD.cmd = ONEAD.cmd || [];
+										ONEAD.cmd.push(function(){
+											ONEAD_slot('div-incover-ad', 'incover');
+										});
+									}
+								</script>
+								</div>
+
+									  <!-- incover END -->
+								<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+
+<div align="center" style="width:100%; margin:0px;">
+ 
+ 
+ 
+	<div id="top" style="margin:0px;">
+		<img src="imgs/index_1.png" />
+	</div>
+
+	<div style="margin:0px;">
+								<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+									<!-- 非同步載入 isip.js 的作法 -->
+									<div id="div-onead-ad">
+									 <script type="text/javascript">
+											if (typeof(ONEAD) !== "undefined"){
+												ONEAD.cmd = ONEAD.cmd || [];
+												ONEAD.cmd.push(function(){
+													ONEAD_slot('div-onead-ad');
+												});
+											}
+									 </script>
+									</div>
+								<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->		
+	</div>
+
+	<div style="clear:both; margin:0px;">
+		<img src="imgs/index_2.png" />
+	</div>		
+
+	<div>
+							<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->					
+							<!-- inread -->
+							<div id="div-inread-ad" style="margin:0px; background-color:white;">
+							 <script type="text/javascript">
+									if (typeof(ONEAD) !== "undefined"){
+										ONEAD.cmd = ONEAD.cmd || [];
+										ONEAD.cmd.push(function(){
+											ONEAD_slot('div-inread-ad', 'inread');
+										});
+									}
+							 </script>
+							</div>
+							<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->		
+	</div>	
+
+	
+
+
+
+ 
+	<div style="clear:both; margin:0px; background:url(imgs/bg3.png);">
+		<img src="imgs/index_3.png" />
+	</div>  
+ 
+
+	
+</div>
+</BODY>
+</HTML>
